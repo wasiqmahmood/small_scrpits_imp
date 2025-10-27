@@ -22,7 +22,7 @@ A bash script that automatically updates Python dependencies and pushes changes 
 ```bash
 ./dependency_updater.sh
 
-
+---
 
 #  Parallel Task Executor 
 
