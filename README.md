@@ -1,5 +1,3 @@
-### Automated Dependency Updater ###
-
 # Automated Dependency Updater
 
 A bash script that automatically updates Python dependencies and pushes changes to GitHub.
@@ -24,9 +22,9 @@ A bash script that automatically updates Python dependencies and pushes changes 
 ```bash
 ./dependency_updater.sh
 
-###  Parallel Task Executor ###
 
-# Parallel Task Executor
+
+#  Parallel Task Executor 
 
 A bash script demonstrating parallel execution of multiple tasks with process management.
 
