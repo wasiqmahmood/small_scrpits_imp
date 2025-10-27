@@ -1,0 +1,36 @@
+#!/bin/bash
+
+# Function for parallel tasks
+long_task() {
+  local duration=$1
+  local task_name=$2
+  echo "🟢 STARTED: $task_name (sleeping for ${duration}s)"
+  sleep $duration
+  echo "✅ FINISHED: $task_name (took ${duration}s)"
+}
+
+# Array of tasks (duration in seconds, task name)
+tasks=(
+  "3|Database Backup"
+  "5|File Processing" 
+  "2|Cache Clear"
+  "4|Email Sending"
+)
+
+echo "🚀 Starting ${#tasks[@]} parallel tasks..."
+pids=()
+
+# Start all tasks in background
+for task in "${tasks[@]}"; do
+  IFS='|' read -r duration name <<< "$task"
+  long_task "$duration" "$name" &
+  pids+=($!)
+done
+
+# Wait for all tasks to complete
+echo "⏳ Waiting for ${#pids[@]} tasks to finish..."
+for pid in "${pids[@]}"; do
+  wait "$pid"
+done
+
+echo "🎉 All ${#tasks[@]} tasks completed!"
