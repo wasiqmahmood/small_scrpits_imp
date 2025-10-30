@@ -263,8 +263,6 @@ Yeh dono README files professional documentation provide karti hain har script k
 
 ## README 3: `Kernel Monitor Scripts`
 
-
-```markdown
 ```markdown
 # Kernel Monitor Scripts
 
