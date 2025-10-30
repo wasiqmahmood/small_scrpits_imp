@@ -261,46 +261,28 @@ Yeh dono README files professional documentation provide karti hain har script k
 
 ---
 
-## README 2: `parallel_tasks.md`
+# 🔧 Kernel Monitoring Scripts
 
+Yeh do alag-alag scripts system kernel errors aur alerts ko monitor karne ke liye hain.
 
-```markdown
-# Kernel Monitor Scripts
+## 📁 Available Scripts:
 
-System kernel errors check karne ke liye scripts.
+### 1. `kernel_alerts.sh` - Comprehensive Kernel Monitor
+- Complete kernel error monitoring
+- Detects OOM, Call Trace, BUG, Kernel Panic errors
+- Creates detailed log files
+- Custom time window support
 
-## Files:
-- `kernel_alerts.sh` - Kernel errors monitor karta hai
-- `kernel_check.sh` - Simple version
+### 2. `kernel_check.sh` - Quick Kernel Checker  
+- Lightweight and fast version
+- Basic kernel error detection
+- Simple output format
+- Quick system health check
 
-## Usage:
+## 🚀 Quick Usage:
+
+**For detailed monitoring:**
 ```bash
 ./kernel_alerts.sh          # Last 15 minutes
 ./kernel_alerts.sh 30       # Last 30 minutes
-```
-
-## Checks:
-- Memory errors
-- System crashes  
-- Disk errors
-- Kernel problems
-
-Logs: `/var/log/kernel_alerts.log`
-```
-
-**Ya phir aur bhi chota:**
-
-```markdown
-# Kernel Scripts
-
-`kernel_alerts.sh` - System errors check karta hai
-
-**Use:**
-```bash
-./kernel_alerts.sh
-./kernel_alerts.sh 30
-```
-
-**Checks:** OOM, Crashes, Disk errors
-**Logs:** /var/log/kernel_alerts.log
-```
+./kernel_alerts.sh 60       # Last 1 hour
