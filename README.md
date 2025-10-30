@@ -258,8 +258,9 @@ git push origin main
 
 Yeh dono README files professional documentation provide karti hain har script ke liye! 🚀
 ```
-
 ---
+
+## README 2: `parallel_tasks.md`
 
 # 🔧 Kernel Monitoring Scripts
 
