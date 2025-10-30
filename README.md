@@ -257,3 +257,50 @@ git push origin main
 ```
 
 Yeh dono README files professional documentation provide karti hain har script ke liye! 🚀
+```
+
+---
+
+## README 3: `kernal_alerts.md`
+
+```markdown
+```markdown
+# Kernel Monitor Scripts
+
+System kernel errors check karne ke liye scripts.
+
+## Files:
+- `kernel_alerts.sh` - Kernel errors monitor karta hai
+- `kernel_check.sh` - Simple version
+
+## Usage:
+```bash
+./kernel_alerts.sh          # Last 15 minutes
+./kernel_alerts.sh 30       # Last 30 minutes
+```
+
+## Checks:
+- Memory errors
+- System crashes  
+- Disk errors
+- Kernel problems
+
+Logs: `/var/log/kernel_alerts.log`
+```
+
+**Ya phir aur bhi chota:**
+
+```markdown
+# Kernel Scripts
+
+`kernel_alerts.sh` - System errors check karta hai
+
+**Use:**
+```bash
+./kernel_alerts.sh
+./kernel_alerts.sh 30
+```
+
+**Checks:** OOM, Crashes, Disk errors
+**Logs:** /var/log/kernel_alerts.log
+```
