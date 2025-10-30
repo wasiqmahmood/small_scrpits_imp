@@ -261,7 +261,8 @@ Yeh dono README files professional documentation provide karti hain har script k
 
 ---
 
-## README 3: `kernal_alerts.md`
+## README 3: `Kernel Monitor Scripts`
+
 
 ```markdown
 ```markdown
