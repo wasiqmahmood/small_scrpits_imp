@@ -260,11 +260,10 @@ Yeh dono README files professional documentation provide karti hain har script k
 ```
 ---
 
-## README 2: `parallel_tasks.md`
+## README 3: `kernel_alerts.md`
 
 # 🔧 Kernel Monitoring Scripts
 
-Yeh do alag-alag scripts system kernel errors aur alerts ko monitor karne ke liye hain.
 
 ## 📁 Available Scripts:
 
